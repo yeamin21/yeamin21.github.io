@@ -1,7 +1,7 @@
 "use strict";
 
 /* -----------------------------------------------------------
-   Yeamin Mahmud — Portfolio behaviour
+   Yeamin Mahmud — Portfolio behaviour (Y2K + modern)
    ----------------------------------------------------------- */
 
 const GITHUB_USER = "yeamin21";
@@ -26,7 +26,6 @@ function setYear() {
 function initThemeToggle() {
   const root = document.documentElement;
   const toggle = document.getElementById("themeToggle");
-  const icon = toggle?.querySelector(".theme-icon");
 
   const stored = localStorage.getItem("theme");
   const prefersLight =
@@ -44,7 +43,12 @@ function initThemeToggle() {
 
   function applyTheme(theme) {
     root.setAttribute("data-theme", theme);
-    if (icon) icon.textContent = theme === "light" ? "☀️" : "🌙";
+    if (toggle) {
+      toggle.setAttribute(
+        "aria-label",
+        theme === "light" ? "Switch to dark theme" : "Switch to light theme"
+      );
+    }
   }
 }
 
@@ -190,7 +194,7 @@ function projectCard(repo) {
 
   card.innerHTML = `
     <div class="project-top">
-      <span class="project-icon" aria-hidden="true">📁</span>
+      <span class="project-icon" aria-hidden="true"></span>
       ${stars}
     </div>
     <h3>${escapeHtml(repo.name)}</h3>

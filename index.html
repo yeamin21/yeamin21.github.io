@@ -11,23 +11,21 @@
       content="Yeamin Mahmud — Python developer specializing in Django, APIs, and AI. Portfolio, projects, and contact."
     />
     <meta name="author" content="Yeamin Mahmud" />
-    <meta name="theme-color" content="#0b0f17" />
+    <meta name="theme-color" content="#0a0c12" />
 
-    <!-- Open Graph / social cards -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Yeamin Mahmud — Python Developer" />
     <meta
       property="og:description"
       content="Python developer specializing in Django, APIs, and AI."
     />
-    <meta property="og:image" content="./assets/me.jpg" />
     <meta name="twitter:card" content="summary" />
 
-    <link rel="icon" href="./assets/me.jpg" />
+    <link rel="icon" href="./assets/bot-favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
@@ -40,8 +38,8 @@
     <header class="site-header" id="siteHeader">
       <nav class="nav container" aria-label="Primary">
         <a href="#hero" class="brand" aria-label="Home">
-          <span class="brand-mark">Y</span>
-          <span class="brand-text">Yeamin</span>
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">YEAMIN.EXE</span>
         </a>
 
         <button
@@ -68,7 +66,8 @@
               aria-label="Toggle color theme"
               title="Toggle theme"
             >
-              <span class="theme-icon" aria-hidden="true">🌙</span>
+              <span class="theme-icon theme-icon-moon" aria-hidden="true"></span>
+              <span class="theme-icon theme-icon-sun" aria-hidden="true"></span>
             </button>
           </li>
         </ul>
@@ -78,20 +77,165 @@
     <main id="main">
       <!-- HERO -->
       <section class="hero" id="hero">
-        <div class="hero-bg" aria-hidden="true">
-          <div class="blob blob-1"></div>
-          <div class="blob blob-2"></div>
-          <div class="grid-overlay"></div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-bot">
+            <svg
+              class="bot-svg"
+              viewBox="0 0 200 280"
+              xmlns="http://www.w3.org/2000/svg"
+              role="presentation"
+            >
+              <g class="bot-antenna">
+                <line
+                  x1="100"
+                  y1="28"
+                  x2="100"
+                  y2="48"
+                  stroke="currentColor"
+                  stroke-width="4"
+                  class="bot-stroke-chrome"
+                />
+                <circle cx="100" cy="20" r="10" class="bot-fill-magenta" />
+              </g>
+              <g class="bot-body">
+                <rect
+                  x="55"
+                  y="48"
+                  width="90"
+                  height="70"
+                  rx="8"
+                  class="bot-fill-panel bot-stroke-cyan"
+                  stroke-width="3"
+                />
+                <rect
+                  x="68"
+                  y="62"
+                  width="64"
+                  height="28"
+                  rx="4"
+                  class="bot-fill-visor"
+                />
+                <circle cx="82" cy="76" r="5" class="bot-fill-cyan" />
+                <circle cx="118" cy="76" r="5" class="bot-fill-cyan" />
+                <rect
+                  x="60"
+                  y="128"
+                  width="80"
+                  height="78"
+                  rx="6"
+                  class="bot-fill-panel bot-stroke-cyan"
+                  stroke-width="3"
+                />
+                <rect
+                  x="78"
+                  y="148"
+                  width="44"
+                  height="10"
+                  rx="2"
+                  class="bot-fill-magenta"
+                />
+                <rect
+                  x="78"
+                  y="168"
+                  width="44"
+                  height="10"
+                  rx="2"
+                  class="bot-fill-cyan"
+                />
+              </g>
+              <g class="bot-arm-l">
+                <rect
+                  x="22"
+                  y="132"
+                  width="34"
+                  height="14"
+                  rx="4"
+                  class="bot-fill-chrome bot-stroke-cyan"
+                  stroke-width="2"
+                />
+                <rect
+                  x="14"
+                  y="148"
+                  width="22"
+                  height="36"
+                  rx="4"
+                  class="bot-fill-panel bot-stroke-cyan"
+                  stroke-width="2"
+                />
+              </g>
+              <g class="bot-arm-r">
+                <rect
+                  x="144"
+                  y="132"
+                  width="34"
+                  height="14"
+                  rx="4"
+                  class="bot-fill-chrome bot-stroke-cyan"
+                  stroke-width="2"
+                />
+                <rect
+                  x="164"
+                  y="148"
+                  width="22"
+                  height="36"
+                  rx="4"
+                  class="bot-fill-panel bot-stroke-cyan"
+                  stroke-width="2"
+                />
+              </g>
+              <g class="bot-leg-l">
+                <rect
+                  x="70"
+                  y="210"
+                  width="22"
+                  height="42"
+                  rx="4"
+                  class="bot-fill-panel bot-stroke-cyan"
+                  stroke-width="2"
+                />
+                <rect
+                  x="64"
+                  y="248"
+                  width="34"
+                  height="14"
+                  rx="3"
+                  class="bot-fill-magenta"
+                />
+              </g>
+              <g class="bot-leg-r">
+                <rect
+                  x="108"
+                  y="210"
+                  width="22"
+                  height="42"
+                  rx="4"
+                  class="bot-fill-panel bot-stroke-cyan"
+                  stroke-width="2"
+                />
+                <rect
+                  x="102"
+                  y="248"
+                  width="34"
+                  height="14"
+                  rx="3"
+                  class="bot-fill-cyan"
+                />
+              </g>
+            </svg>
+          </div>
+          <div class="hero-visual-chrome"></div>
+          <div class="hero-scanlines"></div>
+          <div class="hero-stars"></div>
         </div>
 
         <div class="container hero-inner">
           <div class="hero-copy reveal">
-            <p class="eyebrow">Hi, I'm Yeamin Mahmud</p>
+            <p class="brand-hero">YEAMIN</p>
             <h1 class="hero-title">
-              I build with <span class="gradient-text">Python</span>, Django &amp;
+              I build with <span class="accent-cyan">Python</span>, Django &amp;
               AI.
             </h1>
-            <p class="hero-role">
+            <p class="hero-sub">
               Sr. Software Engineer @
               <a
                 href="https://jatratech.io"
@@ -99,11 +243,7 @@
                 rel="noopener noreferrer"
                 >JatraTech</a
               >
-            </p>
-            <p class="hero-sub">
-              A Python developer who enjoys turning ideas into robust back-ends,
-              clean APIs, and practical AI — code that's reliable, scalable, and
-              easy to build on.
+              — robust back-ends, clean APIs, and practical AI.
             </p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#projects">View my work</a>
@@ -131,22 +271,10 @@
               </li>
             </ul>
           </div>
-
-          <div class="hero-photo reveal">
-            <div class="photo-ring">
-              <img
-                src="./assets/me.jpg"
-                alt="Portrait of Yeamin Mahmud"
-                loading="eager"
-                width="320"
-                height="320"
-              />
-            </div>
-          </div>
         </div>
 
         <a class="scroll-hint" href="#about" aria-label="Scroll to about section">
-          <span></span>
+          <span class="scroll-hint-label">SCROLL</span>
         </a>
       </section>
 
@@ -154,7 +282,7 @@
       <section class="section about" id="about">
         <div class="container">
           <header class="section-head reveal">
-            <span class="section-index">01</span>
+            <span class="section-index">01 // ABOUT</span>
             <h2 class="section-title">About me</h2>
           </header>
           <div class="about-grid">
@@ -166,10 +294,9 @@
                   target="_blank"
                   rel="noopener noreferrer"
                   ><strong>JatraTech</strong></a
-                >, working with Python, Django, REST
-                APIs, and AI-assisted systems — building backend architecture,
-                designing clean data models, and shipping internal tools that
-                hold up in production.
+                >, working with Python, Django, REST APIs, and AI-assisted
+                systems — building backend architecture, designing clean data
+                models, and shipping internal tools that hold up in production.
               </p>
               <p>
                 My work is practical and optimization-oriented: automation-heavy
@@ -186,7 +313,7 @@
               </li>
               <li>
                 <span class="stat-num" data-count="20" data-suffix="+">0</span>
-                <span class="stat-label">Projects & experiments</span>
+                <span class="stat-label">Projects &amp; experiments</span>
               </li>
               <li>
                 <span class="stat-num" data-count="100" data-suffix="%">0</span>
@@ -201,11 +328,11 @@
       <section class="section skills" id="skills">
         <div class="container">
           <header class="section-head reveal">
-            <span class="section-index">02</span>
+            <span class="section-index">02 // STACK</span>
             <h2 class="section-title">Tech stack &amp; tools</h2>
           </header>
           <div class="skills-grid">
-            <article class="skill-card reveal">
+            <article class="skill-panel reveal">
               <h3>Backend</h3>
               <ul>
                 <li>Python</li>
@@ -215,7 +342,7 @@
                 <li>REST APIs</li>
               </ul>
             </article>
-            <article class="skill-card reveal">
+            <article class="skill-panel reveal">
               <h3>Data &amp; Infrastructure</h3>
               <ul>
                 <li>PostgreSQL</li>
@@ -225,7 +352,7 @@
                 <li>Server management</li>
               </ul>
             </article>
-            <article class="skill-card reveal">
+            <article class="skill-panel reveal">
               <h3>Integrations &amp; AI</h3>
               <ul>
                 <li>OAuth2 integrations</li>
@@ -242,7 +369,7 @@
       <section class="section focus" id="focus">
         <div class="container">
           <header class="section-head reveal">
-            <span class="section-index">03</span>
+            <span class="section-index">03 // FOCUS</span>
             <h2 class="section-title">Focus &amp; engineering style</h2>
           </header>
           <div class="focus-grid">
@@ -279,56 +406,56 @@
       <section class="section work" id="work">
         <div class="container">
           <header class="section-head reveal">
-            <span class="section-index">04</span>
+            <span class="section-index">04 // WORK</span>
             <h2 class="section-title">Systems I've built</h2>
             <p class="section-note">
               Selected backend, automation, and optimization work.
             </p>
           </header>
           <div class="work-grid">
-            <article class="work-card reveal">
+            <article class="work-panel reveal">
               <h3>AI cleaning task scheduler</h3>
               <p>
                 An AI-assisted scheduler that assigns and sequences cleaning
                 tasks, optimizing for time and availability.
               </p>
             </article>
-            <article class="work-card reveal">
+            <article class="work-panel reveal">
               <h3>Laundry task assignment optimizer</h3>
               <p>
                 Constraint-based optimizer that distributes laundry tasks
                 efficiently across resources.
               </p>
             </article>
-            <article class="work-card reveal">
+            <article class="work-panel reveal">
               <h3>Dependency-aware scheduling engine</h3>
               <p>
                 A scheduling engine that resolves task dependencies to produce
                 valid, ordered execution plans.
               </p>
             </article>
-            <article class="work-card reveal">
+            <article class="work-panel reveal">
               <h3>HRM-related systems</h3>
               <p>
                 Internal human-resource management tooling built on Django and
                 PostgreSQL.
               </p>
             </article>
-            <article class="work-card reveal">
+            <article class="work-panel reveal">
               <h3>OAuth2 integrations with Salesforce</h3>
               <p>
                 Secure OAuth2 flows connecting internal services with Salesforce
                 APIs.
               </p>
             </article>
-            <article class="work-card reveal">
+            <article class="work-panel reveal">
               <h3>GitHub Actions deployment pipelines</h3>
               <p>
                 CI/CD pipelines automating tests and production deployment to
                 Linux servers.
               </p>
             </article>
-            <article class="work-card reveal">
+            <article class="work-panel reveal">
               <h3>Proposal / HTML builder exploration</h3>
               <p>
                 Custom CMS/builder concepts with component-driven, document
@@ -343,7 +470,7 @@
       <section class="section projects" id="projects">
         <div class="container">
           <header class="section-head reveal">
-            <span class="section-index">05</span>
+            <span class="section-index">05 // GITHUB</span>
             <h2 class="section-title">On GitHub</h2>
             <p class="section-note">
               Pulled live from my
@@ -357,7 +484,6 @@
           </header>
 
           <div class="projects-grid" id="projectsGrid" aria-live="polite">
-            <!-- Skeleton placeholders while loading -->
             <div class="project-card skeleton" aria-hidden="true"></div>
             <div class="project-card skeleton" aria-hidden="true"></div>
             <div class="project-card skeleton" aria-hidden="true"></div>
@@ -368,7 +494,8 @@
       <!-- CONTACT -->
       <section class="section contact" id="contact">
         <div class="container">
-          <div class="contact-card reveal">
+          <div class="contact-panel reveal">
+            <span class="section-index">06 // CONTACT</span>
             <h2 class="section-title">Let's build something.</h2>
             <p>
               Have a project in mind, a question, or just want to say hi? My
